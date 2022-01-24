@@ -6,6 +6,7 @@ const REMOVE_ALL_BOOKS = 'bookStore/books/REMOVE_ALL_BOOKS';
 
 const initialState = [];
 
+// action creators
 export const addBook = (payload) => ({
   type: ADD_BOOK,
   payload,
@@ -19,6 +20,7 @@ export const removeBook = (payload) => ({
 export const removeAllBooks = () => ({
   type: REMOVE_ALL_BOOKS,
 });
+
 
 export const fetchBooks = () => (dispatch) => {
   axios
