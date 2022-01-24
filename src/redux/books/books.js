@@ -56,7 +56,7 @@ export const deleteBook = (id) => (dispatch) => {
     .catch(() => {});
 };
 
-const reducer = (action, state = initialState) => {
+const reducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_BOOK:
       return [...state, action.payload];
