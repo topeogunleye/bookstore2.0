@@ -1,6 +1,5 @@
 import axios from 'axios';
 
-// books.js
 const ADD_BOOK = 'bookStore/books/ADD_BOOK';
 const REMOVE_BOOK = 'bookStore/books/REMOVE_BOOK';
 const REMOVE_ALL_BOOKS = 'bookStore/books/REMOVE_ALL_BOOKS';

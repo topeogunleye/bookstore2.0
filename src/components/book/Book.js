@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { deleteBook } from '../../redux/books/books';
 
+// Book Component
 function Book({ category, title, id }) {
   const dispatch = useDispatch();
 
