@@ -1,10 +1,10 @@
-# bookstore2.0
+# bookstore
 bookstore is an app that let's its users to add new book, view list of books and remove a book. Built with React, Redux, and Tailwind CSS.
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# bookstore2.0
+# bookstore
 
-> bookstore2.0 is an app that let's its users to add new book, view list of books and remove a book. Built with React, Redux, and Tailwind CSS.
+> bookstore is an app that let's its users to add new book, view list of books and remove a book. Built with React, Redux, and Tailwind CSS.
 
 ![screenshot](./app_screenshot.png)
 
