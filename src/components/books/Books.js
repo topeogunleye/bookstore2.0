@@ -8,6 +8,7 @@ import AddNewBook from '../form/AddNewBook';
 function Books() {
   const dispatch = useDispatch();
 
+  // fetch books from the store
   useEffect(() => {
     dispatch(fetchBooks());
     return () => {
