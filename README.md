@@ -1,10 +1,10 @@
-# bookstore
-Bookstore is an app that let's its users to add new book, view list of books and remove a book. Built with React, Redux, and Tailwind CSS.
+# bookstore2.0
+bookstore is an app that let's its users to add new book, view list of books and remove a book. Built with React, Redux, and Tailwind CSS.
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# bookstore
+# bookstore2.0
 
-> Bookstore is an app that let's its users to add new book, view list of books and remove a book. Built with React, Redux, and Tailwind CSS.
+> bookstore2.0 is an app that let's its users to add new book, view list of books and remove a book. Built with React, Redux, and Tailwind CSS.
 
 ![screenshot](./app_screenshot.png)
 
@@ -29,10 +29,10 @@ Basic knowledge of HTML, CSS, JavaScript, and React
 ### Setup
 If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
-[Download the ZIP from this location](https://github.com/topeogunleye/bookstore/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+[Download the ZIP from this location](https://github.com/topeogunleye/bookstore2.0/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
 
 ```bash
-git clone https://github.com/topeogunleye/bookstore.git
+git clone https://github.com/topeogunleye/bookstore2.0.git
 ```
 
 - Once the files are on your machine, open the _todo-list_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
@@ -81,7 +81,7 @@ The following tools help make easier to work with sample code.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/topeogunleye/bookstore/issues).
+Feel free to check the [issues page](https://github.com/topeogunleye/bookstore2.0/issues).
 
 ## Show your support
 
