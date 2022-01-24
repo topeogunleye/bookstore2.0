@@ -4,11 +4,9 @@ import { fetchBooks, removeAllBooks } from '../../redux/books/books';
 import Book from '../book/Book';
 import AddNewBook from '../form/AddNewBook';
 
-// Books Component
 function Books() {
   const dispatch = useDispatch();
 
-  // fetch books from the store
   useEffect(() => {
     dispatch(fetchBooks());
     return () => {
@@ -20,9 +18,8 @@ function Books() {
   const books = useSelector((state) => state.booksReducer);
 
   return (
-    <div>
-      <h2>Books</h2>
-      <ul>
+    <div className="flex flex-col justify-center bg-gray-200">
+      <ul className="py-8 w-screen m-auto">
         {books.map((book) => (
           <Book
             category={book.category}

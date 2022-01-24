@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Categories Component
 function categories() {
   return (
     <div>
