@@ -1,14 +1,12 @@
 import axios from 'axios';
 
-// Action Creators
+// books.js
 const ADD_BOOK = 'bookStore/books/ADD_BOOK';
 const REMOVE_BOOK = 'bookStore/books/REMOVE_BOOK';
 const REMOVE_ALL_BOOKS = 'bookStore/books/REMOVE_ALL_BOOKS';
 
-//  initialState
 const initialState = [];
 
-// action creators
 export const addBook = (payload) => ({
   type: ADD_BOOK,
   payload,
@@ -39,7 +37,6 @@ export const fetchBooks = () => (dispatch) => {
     .catch(() => {});
 };
 
-// 
 export const postBook = (newBook) => (dispatch) => {
   axios
     .post(
@@ -50,7 +47,6 @@ export const postBook = (newBook) => (dispatch) => {
     .catch(() => {});
 };
 
-// deleteBook Function
 export const deleteBook = (id) => (dispatch) => {
   axios
     .delete(
@@ -60,8 +56,7 @@ export const deleteBook = (id) => (dispatch) => {
     .catch(() => {});
 };
 
-// reducer function
-const reducer = (state = initialState, action) => {
+const reducer = (action, state = initialState) => {
   switch (action.type) {
     case ADD_BOOK:
       return [...state, action.payload];
