@@ -40,7 +40,7 @@ function AddNewBook() {
         <Input
           title={title}
           handleTitle={handleTitle}
-          className="h-9 py-0 placeholder:text-gray-400 w-full"
+          className="h-9 py-0 placeholder:text-gray-400 w-full col-span-3"
         />
         <Example
           handleCategory={handleCategory}
@@ -51,7 +51,7 @@ function AddNewBook() {
         <button
           type="submit"
           onClick={submitBookToStore}
-          className="bg-blue-400 text-white px-4 py-2 flex-none"
+          className="bg-blue-400 text-white px-4 py-2 col-auto"
         >
           Add Book
         </button>
