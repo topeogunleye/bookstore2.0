@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// Header/Navbar Component
 function Header() {
   return (
     <div>

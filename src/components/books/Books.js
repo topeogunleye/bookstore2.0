@@ -4,9 +4,11 @@ import { fetchBooks, removeAllBooks } from '../../redux/books/books';
 import Book from '../book/Book';
 import AddNewBook from '../form/AddNewBook';
 
+// Books Component
 function Books() {
   const dispatch = useDispatch();
 
+  // fetch books from the store
   useEffect(() => {
     dispatch(fetchBooks());
     return () => {
